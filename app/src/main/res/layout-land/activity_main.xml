@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/Laya"
+    android:background="@color/gris">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:text="Play Juegos"
+        android:textSize="30dp"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:text="PLAY"
+        android:backgroundTint="@color/grisInicial"
+        android:textColor="@color/black"
+        style="@style/SharpButton"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:text="NEW PLAYER"
+        android:backgroundTint="@color/grisInicial"
+        android:textColor="@color/black"
+        style="@style/SharpButton"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:text="PREFERENCES"
+        android:backgroundTint="@color/grisInicial"
+        android:textColor="@color/black"
+        style="@style/SharpButton"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:text="ABOUT"
+        android:backgroundTint="@color/grisInicial"
+        android:textColor="@color/black"
+        style="@style/SharpButton"/>
+
+</LinearLayout>
