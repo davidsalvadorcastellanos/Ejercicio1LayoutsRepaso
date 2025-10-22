@@ -4,4 +4,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="gris">#eeeeee</color>
     <color name="grisInicial">#d6d8d7</color>
+
+    <color name="azulPrincipal">#2196f3</color>
 </resources>

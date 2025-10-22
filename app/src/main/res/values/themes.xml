@@ -9,6 +9,7 @@
 
     <style name="SharpButton" parent="Widget.MaterialComponents.Button">
         <item name="cornerRadius">0dp</item>
+        <item name="cursorColor">@drawable/cursor_color</item>
     </style>
 
 </resources>

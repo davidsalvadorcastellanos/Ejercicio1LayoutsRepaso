@@ -6,6 +6,15 @@
     android:layout_height="match_parent"
     android:background="@color/gris">
 
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/azulPrincipal"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        tools:ignore="missingConstraints"/>
+
     <EditText
         android:id="@+id/name"
         android:layout_width="wrap_content"
@@ -16,7 +25,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="100dp"/>
+        android:layout_marginTop="100dp"
+        android:textCursorDrawable="@drawable/cursor_color"/>
 
     <EditText
         android:id="@+id/phoneticName"
@@ -28,7 +38,8 @@
         android:hint="Phonetic name"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/name" />
+        app:layout_constraintTop_toBottomOf="@+id/name"
+        android:textCursorDrawable="@drawable/cursor_color"/>
 
     <EditText
         android:id="@+id/nickName"
@@ -41,7 +52,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/phoneticName" />
+        app:layout_constraintTop_toBottomOf="@+id/phoneticName"
+        android:textCursorDrawable="@drawable/cursor_color"/>
 
     <ImageView
         android:id="@+id/users"
@@ -85,7 +97,8 @@
         android:inputType="textEmailAddress"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinner" />
+        app:layout_constraintTop_toBottomOf="@+id/spinner"
+        android:textCursorDrawable="@drawable/cursor_color"/>
 
     <EditText
         android:id="@+id/editTextPhone2"
@@ -97,7 +110,8 @@
         android:hint="Phone"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/constraintLayout2" />
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout2"
+        android:textCursorDrawable="@drawable/cursor_color"/>
 
     <Spinner
         android:id="@+id/spinner"
@@ -140,8 +154,8 @@
             app:layout_constraintHorizontal_bias="0.051"
             app:layout_constraintStart_toEndOf="@+id/imageView5"
             app:layout_constraintTop_toTopOf="parent"
-            android:backgroundTint="@color/white"
-            android:textColor="@color/black"/>
+            android:backgroundTint="@color/azulPrincipal"
+            android:textColor="@color/white"/>
 
         <ImageView
             android:id="@+id/camara"
