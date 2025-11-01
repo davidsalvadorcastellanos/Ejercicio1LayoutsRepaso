@@ -2,7 +2,6 @@ package com.example.repasoplayjuegos
 
 import android.os.Bundle
 import android.view.Menu
-import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 

@@ -3,7 +3,10 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="gris">#eeeeee</color>
-    <color name="grisInicial">#d6d8d7</color>
 
     <color name="azulPrincipal">#2196f3</color>
+    <color name="grisInicial">#d6d8d7</color>
+    <color name="grisSecundario">#cdcdcd</color>
+    <color name="grisBarras">#e0e0e0</color>
+    <color name="naranja">#fb9006</color>
 </resources>
